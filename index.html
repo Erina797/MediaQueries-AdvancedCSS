@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <title>Locomotora Store</title>
+     <!-- icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Normalize -->
+     <link rel="stylesheet" href="assets/css/normalize.css">
+     <!-- css -->
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main class="grid-container">
+
+        <header class="background">
+            <div class="flexbox">
+                <h5 class="text"><b>La Locomotora</b></h5>
+                <p class="icon"><i class="fa-solid fa-bars"></i></p>
+            </div>
+            <div class="menu mg-3">
+                <ul>
+                    <li><b>Start</b></li>
+                    <li><b>Catalogue</b></li>
+                    <li><b>Offers</b></li>
+                    <li><b>Contact</b></li>
+                </ul>
+            </div>
+        </header>
+
+        <aside class="flex-button background-aside padding-top margin-bottom">
+                <p class="margin-bottom">Sort by:</p>
+                <select class="button">
+                <option value="precio">Price</option>
+                <option value="fecha">Date</option>
+                </select>
+        </aside>
+        
+        <section class="grid-container-grid">
+            <div class="flex-button item">
+                <img src="assets/img/cortex.jpg" alt="Cortex" class="border">
+                <p class="text"><b>Cortex</b></p>
+                <button class="search">See more <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-button item">
+                <img src="assets/img/dobble.jpg" alt="Dobble" class="border">
+                <p class="text"><b>Dobble</b></p>
+                <button class="search">See more <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-button item">
+                <img src="assets/img/friends.jpg" alt="Friends" class="border">
+                <p class="text"><b>Friends</b></p>
+                <button class="search">See more <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-button item">
+                <img src="assets/img/rhinohero.jpg" alt="Rhino Hero" class="border">
+                <p class="text"><b>Rhino Hero</b></p>
+                <button class="search">See more <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-button item">
+                <img src="assets/img/timesup.jpg" alt="Time's up" class="border">
+                <p class="text"><b>Time's up</b></p>
+                <button class="search">See more <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-button item">
+                <img src="assets/img/unoallwild.jpg" alt="Uno all wild" class="border">
+                <p class="text"><b>Uno all wild</b></p>
+                <button class="search">See more<i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-button item">
+                <img src="assets/img/unoflip.jpg" alt="Uno flip" class="border">
+                <p class="text"><b>Uno flip</b></p>
+                <button class="search">See more <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="flex-button item">
+                <img src="assets/img/unojurassic.jpg" alt="Uno jurassic" class="border">
+                <p class="text"><b>Uno jurassic</b></p>
+                <button class="search">See more<i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="nav-pagination flex-button" aria-label="Page navigation example navigation-number">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+            </div>   
+        </section>
+        <footer class="flex-button margin-top background-footer">
+                <p class="margin-bottom"><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></p>
+                <p class="margin-bottom text">©2022 Alls rights reserved</p>
+        </footer>
+    </main>
+</body>
+</html>
